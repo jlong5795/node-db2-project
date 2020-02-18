@@ -20,7 +20,7 @@ exports.up = function(knex) {
             .integer('Mileage')
             .notNullable();
         
-        tbl.string('Transmission Type');
+        tbl.string('Transmission');
 
         tbl.string('Title');
 
